@@ -56,3 +56,58 @@ nav a. :active{
     font-weight: bold;
     border-bottom: 2px solid #e10600;
 }
+
+.hero {
+    height: 90vh;
+    background: url("../Image/Banner.png.jpeg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.hero button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.hero button:hover{
+    background: darkred;
+}
+
+.video-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 40px;
+
+    background: linear-gradient(
+        90deg,
+        #0b0b0b 0%,
+        #0f0f0f 35%,
+        #180606 55%,
+        #330000 75%,
+        #5A0000 90%,
+        #7F0000 100%,
+    );
+}
+
+.Video-box{
+    flex: 1;
+}
+.video-box video{
+    width: 100%;
+    border-radius: 10px;
+}
+.video-text h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #f5f5f5;
+}
+.video-text p{
+    font-size: 18px;
+    color: #b8b8b8;
+}
